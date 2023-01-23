@@ -21,6 +21,8 @@ struct Event_CREATE_WAYPOINT : public PE::Events::Event
 	char m_name[32];
 	char m_nextWaypointName[32];
 
+	int m_needToRunToThisWaypoint;
+
 	PEUUID m_peuuid; // unique object id
 };
 }
