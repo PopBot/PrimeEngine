@@ -76,19 +76,31 @@ void SoldierNPCMovementSM::do_SoldierNPCMovementSM_Event_MOVE_TO(PE::Events::Eve
 	// Walking or running
 	if (pRealEvt->m_running) {
 		m_state = RUNNING_TO_TARGET;
+		PE::Handle h("SoldierNPCAnimSM_Event_RUN", sizeof(SoldierNPCAnimSM_Event_RUN));
+		Events::SoldierNPCAnimSM_Event_RUN* pOutEvt = new(h) SoldierNPCAnimSM_Event_RUN();
+
+		// Sending event
+		SoldierNPC* pSol = getFirstParentByTypePtr<SoldierNPC>();
+		pSol->getFirstComponent<PE::Components::SceneNode>()->handleEvent(pOutEvt);
+
+		// release memory now that event is processed
+		h.release();
 	}
 	else {
 		m_state = WALKING_TO_TARGET;
+
+		// Moved this code to walking event
+		PE::Handle h("SoldierNPCAnimSM_Event_WALK", sizeof(SoldierNPCAnimSM_Event_WALK));
+		Events::SoldierNPCAnimSM_Event_WALK* pOutEvt = new(h) SoldierNPCAnimSM_Event_WALK();
+
+		SoldierNPC* pSol = getFirstParentByTypePtr<SoldierNPC>();
+		pSol->getFirstComponent<PE::Components::SceneNode>()->handleEvent(pOutEvt);
+
+		// release memory now that event is processed
+		h.release();
 	}
 
-	PE::Handle h("SoldierNPCAnimSM_Event_WALK", sizeof(SoldierNPCAnimSM_Event_WALK));
-	Events::SoldierNPCAnimSM_Event_WALK *pOutEvt = new(h) SoldierNPCAnimSM_Event_WALK();
 	
-	SoldierNPC *pSol = getFirstParentByTypePtr<SoldierNPC>();
-	pSol->getFirstComponent<PE::Components::SceneNode>()->handleEvent(pOutEvt);
-
-	// release memory now that event is processed
-	h.release();
 }
 
 void SoldierNPCMovementSM::do_SoldierNPCMovementSM_Event_STOP(PE::Events::Event *pEvt)
@@ -115,7 +127,10 @@ void SoldierNPCMovementSM::do_UPDATE(PE::Events::Event *pEvt)
 			{
 				// not at the spot yet
 				Event_UPDATE *pRealEvt = (Event_UPDATE *)(pEvt);
-				float speed = (m_state == WALKING_TO_TARGET) ? 1.4f : 2.8f;
+				float speed = (m_state == WALKING_TO_TARGET) ? 1.4f : 3.0f;
+
+				// static means this only runs once; we never update the speed
+				// static float speed =  2.8f;
 				float allowedDisp = speed * pRealEvt->m_frameTime;
 
 				Vector3 dir = (m_targetPostion - curPos);

@@ -60,6 +60,18 @@ void SoldierNPCAnimationSM::do_SoldierNPCAnimSM_Event_WALK(PE::Events::Event *pE
 }
 
 
+void SoldierNPCAnimationSM::do_SoldierNPCAnimSM_Event_RUN(PE::Events::Event* pEvt)
+{
+	if (m_curId != SoldierNPCAnimationSM::RUN)
+	{
+		m_curId = SoldierNPCAnimationSM::RUN;
+		setAnimation(0, SoldierNPCAnimationSM::RUN,
+			0, 0, 1, 1,
+			PE::LOOPING);
+	}
+}
+
+
 }}
 
 
