@@ -80,6 +80,16 @@ void SoldierNPCBehaviorSM::do_SoldierNPCMovementSM_Event_TARGET_REACHED(PE::Even
 					m_state = PATROLLING_WAYPOINTS;
 					PE::Handle h("SoldierNPCMovementSM_Event_MOVE_TO", sizeof(SoldierNPCMovementSM_Event_MOVE_TO));
 					Events::SoldierNPCMovementSM_Event_MOVE_TO *pEvt = new(h) SoldierNPCMovementSM_Event_MOVE_TO(pWP->m_base.getPos());
+					// if (rand() % 2)		// Gives you zero or 1
+					// {
+					//	pEvt->m_running = true;
+					// }
+					// else
+					// {
+					// 	pEvt->m_running = false;
+					// }
+
+					pEvt->m_running = rand() % 2 > 0;	// Save 7 lines of code
 
 					m_hMovementSM.getObject<Component>()->handleEvent(pEvt);
 					// release memory now that event is processed

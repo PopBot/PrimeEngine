@@ -15,6 +15,8 @@ PE_IMPLEMENT_CLASS1(SoldierNPCAnimSM_Event_STOP, Event);
 
 PE_IMPLEMENT_CLASS1(SoldierNPCAnimSM_Event_WALK, Event);
 
+PE_IMPLEMENT_CLASS1(SoldierNPCAnimSM_Event_RUN, Event);
+
 }
 namespace Components{
 

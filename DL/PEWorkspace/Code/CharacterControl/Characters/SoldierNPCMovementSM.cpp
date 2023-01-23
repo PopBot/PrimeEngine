@@ -64,11 +64,23 @@ void SoldierNPCMovementSM::do_SoldierNPCMovementSM_Event_MOVE_TO(PE::Events::Eve
 	SoldierNPCMovementSM_Event_MOVE_TO *pRealEvt = (SoldierNPCMovementSM_Event_MOVE_TO *)(pEvt);
 	
 	// change state of this state machine
-	m_state = WALKING_TO_TARGET;
+	
 	m_targetPostion = pRealEvt->m_targetPosition;
 
+	// make a printout basically saying if we are runnning or not
+	OutputDebugStringA("PE: PROGRESS: SoldierNPCMovementSM::do_soldierNPCMovementSM_Event_MOVE_TO(): received event, running: ");
+	OutputDebugStringA(pRealEvt->m_running ? "true\n": "false\n");
+
 	// make sure the animations are playing
-	
+
+	// Walking or running
+	if (pRealEvt->m_running) {
+		m_state = RUNNING_TO_TARGET;
+	}
+	else {
+		m_state = WALKING_TO_TARGET;
+	}
+
 	PE::Handle h("SoldierNPCAnimSM_Event_WALK", sizeof(SoldierNPCAnimSM_Event_WALK));
 	Events::SoldierNPCAnimSM_Event_WALK *pOutEvt = new(h) SoldierNPCAnimSM_Event_WALK();
 	
@@ -89,7 +101,7 @@ void SoldierNPCMovementSM::do_SoldierNPCMovementSM_Event_STOP(PE::Events::Event 
 
 void SoldierNPCMovementSM::do_UPDATE(PE::Events::Event *pEvt)
 {
-	if (m_state == WALKING_TO_TARGET)
+	if (m_state == WALKING_TO_TARGET || m_state == RUNNING_TO_TARGET)
 	{
 		// see if parent has scene node component
 		SceneNode *pSN = getParentsSceneNode();
@@ -103,7 +115,7 @@ void SoldierNPCMovementSM::do_UPDATE(PE::Events::Event *pEvt)
 			{
 				// not at the spot yet
 				Event_UPDATE *pRealEvt = (Event_UPDATE *)(pEvt);
-				static float speed = 1.4f;
+				float speed = (m_state == WALKING_TO_TARGET) ? 1.4f : 2.8f;
 				float allowedDisp = speed * pRealEvt->m_frameTime;
 
 				Vector3 dir = (m_targetPostion - curPos);

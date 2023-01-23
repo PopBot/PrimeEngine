@@ -28,6 +28,12 @@ struct SoldierNPCAnimSM_Event_WALK : public PE::Events::Event {
 	SoldierNPCAnimSM_Event_WALK() {}
 };
 
+struct SoldierNPCAnimSM_Event_RUN : public PE::Events::Event {
+	PE_DECLARE_CLASS(SoldierNPCAnimSM_Event_RUN);	// PE_DECLARE_CLASS registers a lot of nice global macros
+
+	SoldierNPCAnimSM_Event_RUN() {}
+};
+
 // todo add events for shooting (sent by weapons state machine
 
 };
