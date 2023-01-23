@@ -1,0 +1,20 @@
+LevelLoader.CreateGameObject("PEObject5_pkingTiger",0.928769, -0.370359, -0.014922, 0.0, 0.370659, 0.928016, 0.037389, 0.0, 0.0, -0.040257, 0.999189, 0.0, 1319.419368, 0.648558, -82.227235, 1.0, 'TutorialLevel.x_PEObject5_pkingT.lua', 'Default',0xd4edd221, 0x97af11ed, 0xb9fd5084, 0x92cae96d)
+
+LevelLoader.CreateGameObject("PEObject4_pCar",0.950491, -0.310753, 0.0, 0.0, 0.310753, 0.950491, -0.0, 0.0, -0.0, 0.0, 1.0, 0.0, 374.480634, -55.403362, 783.186313, 1.0, 'TutorialLevel.x_PEObject4_pCar.lua', 'Default',0xcaa95780, 0x97af11ed, 0x959f5084, 0x92cae96d)
+
+LevelLoader.CreateGameObject("PEObject10_TImrod",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, -0.0, 1.0, 'TutorialLevel.x_PEObject10_TImro.lua', 'Default',0xd9d4aa5e, 0x99ef11ed, 0x95495084, 0x92cae96d)
+
+LevelLoader.CreateGameObject("PEObject1_pPlane1",0.995485, -0.011358, 0.094232, 0.0, 0.013384, 0.999692, -0.020894, 0.0, -0.093966, 0.022061, 0.995331, 0.0, 469.375753, -32.620167, -86.260491, 1.0, 'TutorialLevel.x_PEObject1_pPlane.lua', 'Default',0xb71d38cf, 0x97af11ed, 0x8beb5084, 0x92cae96d)
+
+LevelLoader.CreateGameObject("PEObject7_Tstreetlight",0.997095, 0.071016, -0.027548, 0.0, -0.074283, 0.986595, -0.145302, 0.0, 0.01686, 0.146926, 0.989004, 0.0, 11.211521, -133.127577, 109.106592, 1.0, 'TutorialLevel.x_PEObject7_Tstree.lua', 'Default',0x3f6df1e1, 0x97b811ed, 0xa2635084, 0x92cae96d)
+
+LevelLoader.CreateGameObject("PEObject2_pCar",0.950491, -0.310753, 0.0, 0.0, 0.310753, 0.950491, -0.0, 0.0, -0.0, 0.0, 1.0, 0.0, -313.741973, -9.78605, 64.174198, 1.0, 'TutorialLevel.x_PEObject2_pCar.lua', 'Default',0xc7cdfcf0, 0x97af11ed, 0x94095084, 0x92cae96d)
+
+LevelLoader.CreateGameObject("PEObject9_TImrod",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, -0.0, 1.0, 'TutorialLevel.x_PEObject9_TImrod.lua', 'Default',0x02cc19f0, 0x99ee11ed, 0x8ed05084, 0x92cae96d)
+
+LevelLoader.CreateGameObject("PEObject6_polySurface1",0.950491, -0.310753, 0.0, 0.0, 0.310753, 0.950491, -0.0, 0.0, -0.0, 0.0, 1.0, 0.0, 61.725284, 1250.643542, 691.135967, 1.0, 'TutorialLevel.x_PEObject6_polySu.lua', 'Default',0xd48a34ae, 0x97b711ed, 0xa5715084, 0x92cae96d)
+
+LevelLoader.CreateGameObject("PEObject3_pCar",0.950491, -0.310753, 0.0, 0.0, 0.310753, 0.950491, -0.0, 0.0, -0.0, 0.0, 1.0, 0.0, 1069.928381, -32.620167, -802.907561, 1.0, 'TutorialLevel.x_PEObject3_pCar.lua', 'Default',0xca163f40, 0x97af11ed, 0xaaa65084, 0x92cae96d)
+
+LevelLoader.CreateGameObject("PEObject8_TImrod",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 519.026148, 0.0, -0.0, 1.0, 'TutorialLevel.x_PEObject8_TImrod.lua', 'Default',0xde573b9e, 0x994711ed, 0xb2595084, 0x92cae96d)
+
