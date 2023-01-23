@@ -82,8 +82,11 @@ void SoldierNPCBehaviorSM::do_SoldierNPCMovementSM_Event_TARGET_REACHED(PE::Even
 					Events::SoldierNPCMovementSM_Event_MOVE_TO *pEvt = new(h) SoldierNPCMovementSM_Event_MOVE_TO(pWP->m_base.getPos());
 	
 					// Make the soldier always run
-					pEvt->m_running = rand() % 2 > 0;	// Save 7 lines of code
+					//pEvt->m_running = rand() % 2 > 0;	// Save 7 lines of code
 
+					// Look up run to waypoint value
+					pEvt->m_running = pWP->m_needToRunToThisWaypoint;
+					
 					m_hMovementSM.getObject<Component>()->handleEvent(pEvt);
 					// release memory now that event is processed
 					h.release();

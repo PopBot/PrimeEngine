@@ -93,6 +93,8 @@ WayPoint::WayPoint(PE::GameContext &context, PE::MemoryArena arena, PE::Handle h
 	StringOps::writeToString(pEvt->m_name, m_name, 32);
 	StringOps::writeToString(pEvt->m_nextWaypointName, m_nextWayPointName, 32);
 
+	m_needToRunToThisWaypoint = pEvt->m_needToRunToThisWaypoint;
+
 	m_base = pEvt->m_base;
 }
 

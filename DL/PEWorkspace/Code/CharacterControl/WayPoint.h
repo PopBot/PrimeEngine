@@ -39,6 +39,7 @@ struct WayPoint : public PE::Components::Component
 	char m_name[32];
 	char m_nextWayPointName[32];
 	Matrix4x4 m_base;
+	int m_needToRunToThisWaypoint;
 
 };
 }; // namespace Components
