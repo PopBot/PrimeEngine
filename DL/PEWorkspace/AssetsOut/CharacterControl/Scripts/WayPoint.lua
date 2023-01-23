@@ -12,11 +12,18 @@ function runScript(args)
     local v = args['base']['v']
     local n = args['base']['n']
     
+    -- We add this in case 15 events are sent to the same waypoint
+    local needToRunToThisWaypoint = 0
+    if args['needToRunToThisWaypoint'] ~= nil then
+        needToRunToThisWaypoint = args['needToRunToThisWaypoint']
+    end
+
     outputDebugString("PE: Progress: about to call root.CharacterControl.Events.Event_CREATE_WAYPOINT.Construct\n")
 
     evt = root.CharacterControl.Events.Event_CREATE_WAYPOINT.Construct(
         args['name'],
         args['next'],
+        needToRunToThisWaypoint,
         pos[1], pos[2], pos[3],
         u[1], u[2], u[3],
         v[1], v[2], v[3],

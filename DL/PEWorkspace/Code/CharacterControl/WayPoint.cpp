@@ -34,10 +34,14 @@ int Event_CREATE_WAYPOINT::l_Construct(lua_State* luaVM)
 
 	// get arguments from stack
 	int numArgs, numArgsConst;
-	numArgs = numArgsConst = 15;
+	numArgs = numArgsConst = 16;	// We added a new one (5)
 
 	const char* wayPointName = lua_tostring(luaVM, -numArgs--);
 	const char* nextWayPointName = lua_tostring(luaVM, -numArgs--);
+
+	// Read this after need to run
+	// This will always be "5" because we hardcoded that value for the third argument. This is from the third index.
+	int needToRun = (int)lua_tonumber(luaVM, -numArgs--);
 
 	float positionFactor = 1.0f / 100.0f;
 	Vector3 pos, u, v, n;

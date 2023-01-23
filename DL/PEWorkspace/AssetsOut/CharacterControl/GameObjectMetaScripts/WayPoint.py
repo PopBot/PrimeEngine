@@ -14,5 +14,7 @@ args['myScriptPackage']="CharacterControl"
 args['name'] = ''
 args['next'] = ''
 
+args['needToRunToThisWaypoint'] = 0
+
 end -- required
 '''
