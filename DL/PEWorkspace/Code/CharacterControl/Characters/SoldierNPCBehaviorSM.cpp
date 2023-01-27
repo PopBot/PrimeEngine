@@ -71,21 +71,48 @@ void SoldierNPCBehaviorSM::do_SoldierNPCMovementSM_Event_TARGET_REACHED(PE::Even
 			WayPoint *pWP = pGameObjectManagerAddon->getWayPoint(m_curPatrolWayPoint);
 			if (pWP && StringOps::length(pWP->m_nextWayPointName) > 0)
 			{
+
 				// have next waypoint to go to
 				pWP = pGameObjectManagerAddon->getWayPoint(pWP->m_nextWayPointName);
 				if (pWP)
 				{
+
+					// if the n_nextWayPointName is "6", we want to randomly redirect the soldier to of of the four following waypoints numbers randomly ["6", "7", "8", "1"]
+
+					if (pWP->m_nextWayPointName == "6") {
+						int random = rand() % 4;
+
+						// print out the value of random
+
+						if (random == 0) {
+							pWP = pGameObjectManagerAddon->getWayPoint("6");
+						}
+						else if (random == 1) {
+							pWP = pGameObjectManagerAddon->getWayPoint("7");
+						}
+						else if (random == 2) {
+							pWP = pGameObjectManagerAddon->getWayPoint("8");
+						}
+						else if (random == 3) {
+							pWP = pGameObjectManagerAddon->getWayPoint("1");
+						}
+					}
+					
 					StringOps::writeToString(pWP->m_name, m_curPatrolWayPoint, 32);
 
 					m_state = PATROLLING_WAYPOINTS;
 					PE::Handle h("SoldierNPCMovementSM_Event_MOVE_TO", sizeof(SoldierNPCMovementSM_Event_MOVE_TO));
 					Events::SoldierNPCMovementSM_Event_MOVE_TO *pEvt = new(h) SoldierNPCMovementSM_Event_MOVE_TO(pWP->m_base.getPos());
 	
+					
+					
+					
+					
 					// Make the soldier always run
-					//pEvt->m_running = rand() % 2 > 0;	// Save 7 lines of code
+					pEvt->m_running = rand() % 2 > 0;	// Save 7 lines of code
 
 					// Look up run to waypoint value
-					pEvt->m_running = pWP->m_needToRunToThisWaypoint;
+					// pEvt->m_running = pWP->m_needToRunToThisWaypoint;
 					
 					m_hMovementSM.getObject<Component>()->handleEvent(pEvt);
 					// release memory now that event is processed

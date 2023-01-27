@@ -1,12 +1,5 @@
 ﻿  SoldierNPCBehaviorSM.cpp
-  ClientCharacterControlGame.cpp
-  ClientGameObjectManagerAddon.cpp
-  GameObjectManagerAddon.cpp
-  GlobalRegistry.cpp
-  ServerCharacterControlGame.cpp
-  ServerGameObjectManagerAddon.cpp
-  WayPoint.cpp
-C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\CharacterControl\Characters\SoldierNPCBehaviorSM.cpp(111,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\CharacterControl\Characters\SoldierNPCBehaviorSM.cpp(135,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 SoldierNPC.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
   CharacterControl-win32d3d9.vcxproj -> C:\Projects\clean\PrimeEngine\DL\PEWorkspace\build\CharacterControl-win32d3d9.exe
   ..\External\DownloadedLibraries\glew-1.9.0\bin\glew32.dll

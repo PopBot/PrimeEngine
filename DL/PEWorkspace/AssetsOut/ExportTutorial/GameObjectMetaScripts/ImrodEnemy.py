@@ -23,6 +23,8 @@ args['leathality'] = 50
 args['range'] = 1000 
 args['behavior'] = 'random_patrol'
 
+args['isMoving'] = 1 
+
 
 end -- required
 '''
