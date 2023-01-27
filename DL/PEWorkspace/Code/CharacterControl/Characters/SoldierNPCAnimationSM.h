@@ -21,6 +21,13 @@ struct SoldierNPCAnimSM_Event_STOP : public PE::Events::Event {
 	SoldierNPCAnimSM_Event_STOP() {}
 };
 
+
+//struct SoldierNPCAnimSM_STAND_SHOOT : public PE::Events::Event {
+//	PE_DECLARE_CLASS(SoldierNPCAnimSM_STAND_SHOOT);
+//
+//	SoldierNPCAnimSM_STAND_SHOOT() {}
+//};
+
 // sent by movement state machine when a soldier has to walk
 struct SoldierNPCAnimSM_Event_WALK : public PE::Events::Event {
 	PE_DECLARE_CLASS(SoldierNPCAnimSM_Event_WALK);
@@ -64,6 +71,8 @@ struct SoldierNPCAnimationSM : public PE::Components::DefaultAnimationSM
 	virtual void do_SoldierNPCAnimSM_Event_WALK(PE::Events::Event *pEvt);
 	PE_DECLARE_IMPLEMENT_EVENT_HANDLER_WRAPPER(do_SoldierNPCAnimSM_Event_RUN)
 	virtual void do_SoldierNPCAnimSM_Event_RUN(PE::Events::Event* pEvt);
+    //PE_DECLARE_IMPLEMENT_EVENT_HANDLER_WRAPPER(do_SoldierNPCAnimSM_Event_STAND_SHOOT)
+    //virtual void do_SoldierNPCAnimSM_Event_STAND_SHOOT(PE::Events::Event* pEvt);
 
 
 	AnimId m_curId;
