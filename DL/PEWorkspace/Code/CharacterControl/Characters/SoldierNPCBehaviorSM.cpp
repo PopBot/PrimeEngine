@@ -72,31 +72,61 @@ void SoldierNPCBehaviorSM::do_SoldierNPCMovementSM_Event_TARGET_REACHED(PE::Even
 			if (pWP && StringOps::length(pWP->m_nextWayPointName) > 0)
 			{
 
-				// have next waypoint to go to
-				pWP = pGameObjectManagerAddon->getWayPoint(pWP->m_nextWayPointName);
+                // Check fo the value of the waypoint. If it is 5, then randomly set the next waypoint to one of the four following waypoint numbers:
+                    // randomly: 6, 7, 8, 1
+                    char* nextComparison = "6";
+                    if (pWP->m_name == nextComparison) {
+                        char* nextWayPointName;
+                        int random = rand() % 4;
+                        if (random == 0) {
+                            // Convert '6' into char*
+                            nextWayPointName = "6";
+//                            pWP = pGameObjectManagerAddon->getWayPoint('6');
+                        }
+                        else if (random == 1) {
+                            nextWayPointName = "7";
+//                            pWP = pGameObjectManagerAddon->getWayPoint('7');
+                        }
+                        else if (random == 2) {
+                            nextWayPointName = "8";
+//                            pWP = pGameObjectManagerAddon->getWayPoint('8');
+                        }
+                        else if (random == 3) {
+                            nextWayPointName = "9";
+//                            pWP = pGameObjectManagerAddon->getWayPoint('1');
+                        }
+                        pWP = pGameObjectManagerAddon->getWayPoint(nextWayPointName);
+                    } else {
+                        // have next waypoint to go to
+				        pWP = pGameObjectManagerAddon->getWayPoint(pWP->m_nextWayPointName);
+                    }
+
+
 				if (pWP)
 				{
 
+
+
 					// if the n_nextWayPointName is "6", we want to randomly redirect the soldier to of of the four following waypoints numbers randomly ["6", "7", "8", "1"]
 
-					if (pWP->m_nextWayPointName == "6") {
-						int random = rand() % 4;
-
-						// print out the value of random
-
-						if (random == 0) {
-							pWP = pGameObjectManagerAddon->getWayPoint("6");
-						}
-						else if (random == 1) {
-							pWP = pGameObjectManagerAddon->getWayPoint("7");
-						}
-						else if (random == 2) {
-							pWP = pGameObjectManagerAddon->getWayPoint("8");
-						}
-						else if (random == 3) {
-							pWP = pGameObjectManagerAddon->getWayPoint("1");
-						}
-					}
+//					if (pWP->m_nextWayPointName == '6') {
+//						int random = rand() % 4;
+//
+//						// print out the value of random
+//
+//						if (random == 0) {
+//							pWP = pGameObjectManagerAddon->getWayPoint('6');
+//						}
+//						else if (random == 1) {
+//							pWP = pGameObjectManagerAddon->getWayPoint('7');
+//						}
+//						else if (random == 2) {
+//							pWP = pGameObjectManagerAddon->getWayPoint('8');
+//						}
+//						else if (random == 3) {
+//							pWP = pGameObjectManagerAddon->getWayPoint('1');
+//						}
+//					}
 					
 					StringOps::writeToString(pWP->m_name, m_curPatrolWayPoint, 32);
 
