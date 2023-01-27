@@ -30,9 +30,14 @@ SoldierNPCAnimationSM::SoldierNPCAnimationSM(PE::GameContext &context, PE::Memor
 void SoldierNPCAnimationSM::addDefaultComponents()
 {
 	DefaultAnimationSM::addDefaultComponents();
-
+    PE_REGISTER_EVENT_HANDLER(Events::SoldierNPCAnimSM_Event_STAND_SHOOT, SoldierNPCAnimationSM::do_SoldierNPCAnimSM_Event_STAND_SHOOT);
 	PE_REGISTER_EVENT_HANDLER(Events::SoldierNPCAnimSM_Event_STOP, SoldierNPCAnimationSM::do_SoldierNPCAnimSM_Event_STOP);
 	PE_REGISTER_EVENT_HANDLER(Events::SoldierNPCAnimSM_Event_WALK, SoldierNPCAnimationSM::do_SoldierNPCAnimSM_Event_WALK);
+}
+
+void SoldierNPCAnimationSM::do_soldierNPCAnimSM_Event_STAND_SHOOT(PE::Events::Event **pEvt)
+{
+    
 }
 
 void SoldierNPCAnimationSM::do_SoldierNPCAnimSM_Event_STOP(PE::Events::Event *pEvt)
