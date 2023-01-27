@@ -11,5 +11,4 @@ args['myScriptPackage']="CharacterControl"
 args['name'] = '5'
 args['next'] = '6'
 
-
 end -- required

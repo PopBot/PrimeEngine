@@ -31,9 +31,9 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\APIAbstraction\Eff
   VertexBufferGPUManager.cpp
   GPUMaterial.cpp
   Input.cpp
-C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\APIAbstraction\GPUBuffers\IndexBufferGPU.cpp(24,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   OGL_IndexBufferGPU.cpp
   OGL_VertexBufferGPU.cpp
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\APIAbstraction\GPUBuffers\IndexBufferGPU.cpp(24,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   GPUTextureManager.cpp
   SamplerState.cpp
   Texture.cpp
@@ -125,7 +125,6 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Geometry\SkeletonC
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\Client\ClientNetworkManager.cpp(184,17): warning C4305: 'initializing': truncation from 'double' to 'float'
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\Client\ClientNetworkManager.cpp(175,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   D3D9Renderer.cpp
-  IRenderer.cpp
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\EventManager.cpp(206,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\EventManager.cpp(211,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\EventManager.cpp(219,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -135,6 +134,7 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\EventMa
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\EventManager.cpp(234,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\EventManager.cpp(235,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\EventManager.cpp(241,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  IRenderer.cpp
   MiscShaderActions.cpp
   SA_Bind_Resource.cpp
   SA_CopyInto_SysMem_FromInstancedObjectsAnimationCSReduceResult.cpp
@@ -174,11 +174,11 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\DefaultAnima
   SH_DRAW.cpp
   SceneNode.cpp
   Skeleton.cpp
-C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\LineMesh.cpp(95,27): warning C4018: '<': signed/unsigned mismatch
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\Mesh.cpp(108,74): warning C4474: 'sprintf' : too many arguments passed for format string
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\Mesh.cpp(108,74): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\Mesh.cpp(100,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\Mesh.cpp(108,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\LineMesh.cpp(95,27): warning C4018: '<': signed/unsigned mismatch
   SkeletonInstance.cpp
   SkyVolumeMesh.cpp
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\MeshManager.cpp(44,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -189,8 +189,8 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\SH_DRAW.cpp(
   TextSceneNode.cpp
   SoundManager.cpp
   Dir.cpp
-C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\Skeleton.cpp(196,35): warning C4018: '<': signed/unsigned mismatch
   ErrorHandling.cpp
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\Skeleton.cpp(196,35): warning C4018: '<': signed/unsigned mismatch
   Networkable.cpp
   PEString.cpp
   PrimeEngine-win32d3d9.vcxproj -> C:\Projects\clean\PrimeEngine\DL\PEWorkspace\build\PrimeEngine-win32d3d9.lib

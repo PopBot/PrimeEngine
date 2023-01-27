@@ -61,6 +61,8 @@ void SoldierNPCMovementSM::addDefaultComponents()
 
 void SoldierNPCMovementSM::do_SoldierNPCMovementSM_Event_MOVE_TO(PE::Events::Event *pEvt)
 {
+
+
 	SoldierNPCMovementSM_Event_MOVE_TO *pRealEvt = (SoldierNPCMovementSM_Event_MOVE_TO *)(pEvt);
 	
 	// change state of this state machine
