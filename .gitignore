@@ -3,3 +3,5 @@ DL/PEWorkspace/Code/.vs/PEWorkspace-win32d3d9/v17/Browse.VC.db
 DL/PEWorkspace/build/CharacterControl-win32d3d9.exe
 
 DL/PEWorkspace/Code/.vs/*
+DL/PEWorkspace/.idea/
+DL/PEWorkspace/build-intermediate/x32/Debug/CharacterControl-win32d3d9/Characte.07F16919.tlog/CL.write.1.tlog
