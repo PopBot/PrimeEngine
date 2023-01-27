@@ -1,5 +1,23 @@
-﻿  SoldierNPCBehaviorSM.cpp
-C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\CharacterControl\Characters\SoldierNPCBehaviorSM.cpp(135,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  Assembling CharacterControl\test.asm...
+  Assembling CharacterControl\testfunc_c_stdcall.asm...
+  SoldierNPC.cpp
+  SoldierNPCAnimationSM.cpp
+  SoldierNPCBehaviorSM.cpp
+  SoldierNPCMovementSM.cpp
+  ClientSpaceShip.cpp
+  ClientSpaceShipControls.cpp
+  ClientCharacterControlGame.cpp
+  ClientGameObjectManagerAddon.cpp
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\CharacterControl\Characters\SoldierNPC.cpp(91,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\CharacterControl\Characters\SoldierNPCBehaviorSM.cpp(138,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Events.cpp
+  GameObjectManagerAddon.cpp
+  GlobalRegistry.cpp
+  ServerCharacterControlGame.cpp
+  ServerGameObjectManagerAddon.cpp
+  ClientTank.cpp
+  WayPoint.cpp
+  main.cpp
 SoldierNPC.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
   CharacterControl-win32d3d9.vcxproj -> C:\Projects\clean\PrimeEngine\DL\PEWorkspace\build\CharacterControl-win32d3d9.exe
   ..\External\DownloadedLibraries\glew-1.9.0\bin\glew32.dll

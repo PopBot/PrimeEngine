@@ -6,9 +6,6 @@
   ldebug.c
   ldo.c
   ldump.c
-C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lauxlib.c(544,22): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lauxlib.c(564,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lauxlib.c(574,12): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   lfunc.c
   lgc.c
   linit.c
@@ -17,9 +14,9 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lauxlib.c(574,12)
   lmathlib.c
   lmem.c
   loadlib.c
-  lobject.c
-  lopcodes.c
-  loslib.c
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lauxlib.c(544,22): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lauxlib.c(564,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lauxlib.c(574,12): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\liolib.c(39,46): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\liolib.c(41,32): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\liolib.c(49,42): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -29,11 +26,13 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\liolib.c(209,13):
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\liolib.c(261,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\liolib.c(279,7): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\liolib.c(399,32): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  lobject.c
+  lopcodes.c
+  loslib.c
   lparser.c
   lstate.c
   lstring.c
   lstrlib.c
-  ltable.c
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lobject.c(145,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lobject.c(184,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lobject.c(193,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -44,6 +43,7 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lobject.c(206,9):
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lobject.c(207,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lobject.c(210,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lobject.c(211,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ltable.c
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\loslib.c(33,44): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\loslib.c(71,3): warning C4996: 'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\loslib.c(83,21): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -52,6 +52,8 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\loslib.c(148,11):
   ltablib.c
   ltm.c
   lundump.c
+  lvm.c
+  lzio.c
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lstrlib.c(740,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lstrlib.c(750,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lstrlib.c(775,11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -59,8 +61,6 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lstrlib.c(780,11)
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lstrlib.c(785,11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lstrlib.c(790,11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lstrlib.c(808,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  lvm.c
-  lzio.c
   print.c
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\lvm.c(53,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\lua_dist\src\loadlib.c(339,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
