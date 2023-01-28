@@ -23,6 +23,9 @@ SoldierNPCMovementSM_Event_MOVE_TO::SoldierNPCMovementSM_Event_MOVE_TO(Vector3 t
 { }
 
 PE_IMPLEMENT_CLASS1(SoldierNPCMovementSM_Event_STOP, Event);
+SoldierNPCMovementSM_Event_STOP::SoldierNPCMovementSM_Event_STOP()
+: m_shooting(false)
+{ }
 
 PE_IMPLEMENT_CLASS1(SoldierNPCMovementSM_Event_TARGET_REACHED, Event);
 }

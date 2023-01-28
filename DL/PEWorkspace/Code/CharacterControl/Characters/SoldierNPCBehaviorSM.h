@@ -43,6 +43,7 @@ struct SoldierNPCBehaviorSM : public PE::Components::Component
 	PE_DECLARE_IMPLEMENT_EVENT_HANDLER_WRAPPER(do_PRE_RENDER_needsRC)
 	void do_PRE_RENDER_needsRC(PE::Events::Event *pEvt);
 
+
 	PE::Handle m_hMovementSM;
 
 	bool m_havePatrolWayPoint;

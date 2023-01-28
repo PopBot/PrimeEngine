@@ -31,6 +31,7 @@ void SoldierNPCBehaviorSM::start()
 {
 	if (m_havePatrolWayPoint)
 	{
+		
 		m_state = WAITING_FOR_WAYPOINT; // will update on next do_UPDATE()
 	}
 	else

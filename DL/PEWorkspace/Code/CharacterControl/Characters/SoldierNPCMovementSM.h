@@ -25,8 +25,8 @@ struct SoldierNPCMovementSM_Event_MOVE_TO : public PE::Events::Event {
 struct SoldierNPCMovementSM_Event_STOP : public PE::Events::Event {
 	PE_DECLARE_CLASS(SoldierNPCMovementSM_Event_STOP);
 
-	SoldierNPCMovementSM_Event_STOP()
-	{}
+	SoldierNPCMovementSM_Event_STOP();
+	bool m_shooting;
 };
 
 struct SoldierNPCMovementSM_Event_STOP_SHOOT : public PE::Events::Event {
@@ -59,6 +59,7 @@ struct SoldierNPCMovementSM : public PE::Components::Component
 		STANDING,
 		RUNNING_TO_TARGET,
 		WALKING_TO_TARGET,
+		SHOOTING
 	};
 
 
