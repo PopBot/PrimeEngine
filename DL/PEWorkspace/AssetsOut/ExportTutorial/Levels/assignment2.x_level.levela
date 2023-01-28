@@ -34,7 +34,7 @@ LevelLoader.CreateGameObject("PEObject8_TspotRep",1.0, 0.0, 0.0, 0.0, -0.0, 0.00
 
 LevelLoader.CreateGameObject("PEObject59_tArrow",-0.294935, 0.0, 0.955517, 0.0, 0.0, 1.0, -0.0, 0.0, -0.955517, -0.0, -0.294935, 0.0, 0.0, 0.0, 502.937969, 1.0, 'Assignment2.x_PEObject59_tArro.lua', 'ExportTutorial',0x38ac9721, 0x9de511ed, 0x9f705084, 0x92cae96d)
 
-LevelLoader.CreateGameObject("PEObject12_pPlane1",-0.999061, 0.009804, 0.042204, 0.0, 0.010263, 0.99989, 0.010676, 0.0, -0.042095, 0.011099, -0.999052, 0.0, -8.326546, -25.805183, 141.540459, 1.0, 'Assignment2.x_PEObject12_pPlan.lua', 'ExportTutorial',0x81a8b1c0, 0x1c5111e0, 0xa309001b, 0x213b583a)
+LevelLoader.CreateGameObject("PEObject12_pPlane1",-0.99929, -0.012587, 0.035511, 0.0, -0.012882, 0.999884, -0.008089, 0.0, -0.035405, -0.008541, -0.999337, 0.0, -8.326546, -25.805183, 141.540459, 1.0, 'Assignment2.x_PEObject12_pPlan.lua', 'ExportTutorial',0x81a8b1c0, 0x1c5111e0, 0xa309001b, 0x213b583a)
 
 LevelLoader.CreateGameObject("PEObject42_TspotRep",1.0, 0.0, 0.0, 0.0, -0.0, 0.0, 1.0, 0.0, -0.0, -1.0, 0.0, 0.0, 103.366343, 309.733958, 376.85922, 1.0, 'Assignment2.x_PEObject42_Tspot.lua', 'ExportTutorial',0x4434ae2e, 0x467411e2, 0x98f20025, 0xd3ac504f)
 
@@ -44,7 +44,7 @@ LevelLoader.CreateGameObject("PEObject46_nazi_rep",1.0, 0.0, -0.0, 0.0, 0.0, 1.0
 
 LevelLoader.CreateGameObject("PEObject6_Tstreetlight",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 966.901092, 0.0, -96.658013, 1.0, 'Assignment2.x_PEObject6_Tstree.lua', 'ExportTutorial',0x0f715440, 0x137d11e0, 0x9f3a0025, 0xd3ac504f)
 
-LevelLoader.CreateGameObject("PEObject28_pPlane1",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -2500.0, 0.0, -4.034357, 1.0, 'Assignment2.x_PEObject28_pPlan.lua', 'ExportTutorial',0x102ebd70, 0x1c6811e0, 0x8cad001b, 0x213b583a)
+LevelLoader.CreateGameObject("PEObject28_pPlane1",0.999966, -0.008235, 0.0, 0.0, 0.008235, 0.999966, -0.0, 0.0, -0.0, 0.0, 1.0, 0.0, -2428.264726, 0.0, 111.258439, 1.0, 'Assignment2.x_PEObject28_pPlan.lua', 'ExportTutorial',0x102ebd70, 0x1c6811e0, 0x8cad001b, 0x213b583a)
 
 LevelLoader.CreateGameObject("PEObject27_transf",0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.0, 0.0, -1.0, -0.0, 0.0, 0.0, -1747.108453, -52.751, -1302.801904, 1.0, 'Assignment2.x_PEObject27_trans.lua', 'ExportTutorial',0xfe55f40f, 0x1c6711e0, 0xb94a001b, 0x213b583a)
 
