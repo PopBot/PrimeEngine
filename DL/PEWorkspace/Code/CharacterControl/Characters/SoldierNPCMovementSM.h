@@ -29,6 +29,13 @@ struct SoldierNPCMovementSM_Event_STOP : public PE::Events::Event {
 	{}
 };
 
+struct SoldierNPCMovementSM_Event_STOP_SHOOT : public PE::Events::Event {
+	PE_DECLARE_CLASS(SoldierNPCMovementSM_Event_STOP_SHOOT);
+
+	SoldierNPCMovementSM_Event_STOP_SHOOT()
+	{}
+};
+
 // sent by this state machine to its components. probably to behavior state machine
 struct SoldierNPCMovementSM_Event_TARGET_REACHED : public PE::Events::Event {
 	PE_DECLARE_CLASS(SoldierNPCMovementSM_Event_TARGET_REACHED);
