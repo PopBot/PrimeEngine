@@ -24,6 +24,8 @@ LevelLoader.CreateGameObject("PEObject57_tArrow",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 
 
 LevelLoader.CreateGameObject("PEObject47_tArrow",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -190.086358, 0.0, 200.647729, 1.0, 'Assignment2.x_PEObject47_tArro.lua', 'ExportTutorial',0xabb211a1, 0x9b5611ed, 0x88495084, 0x92cae96d)
 
+LevelLoader.CreateGameObject("PEObject78_TImrod",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, 709.390996, 1.0, 'Assignment2.x_PEObject78_TImro.lua', 'ExportTutorial',0x66e0870f, 0x9ec511ed, 0xb2215084, 0x92cae96d)
+
 LevelLoader.CreateGameObject("PEObject16_tArrow",0.875067, 0.0, 0.484002, 0.0, 0.0, 1.0, -0.0, 0.0, -0.484002, -0.0, 0.875067, 0.0, -138.781173, 0.0, 74.338829, 1.0, 'Assignment2.x_PEObject16_tArro.lua', 'ExportTutorial',0x76f9d530, 0x1c5411e0, 0xbea5001b, 0x213b583a)
 
 LevelLoader.CreateGameObject("PEObject21_tArrow",0.802985, 0.0, 0.596, 0.0, 0.0, 1.0, -0.0, 0.0, -0.596, -0.0, 0.802985, 0.0, 174.592971, 0.0, 477.007469, 1.0, 'Assignment2.x_PEObject21_tArro.lua', 'ExportTutorial',0x90b4a1b0, 0x1c6011e0, 0x91c1001b, 0x213b583a)
