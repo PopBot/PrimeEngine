@@ -2,11 +2,15 @@ LevelLoader.CreateGameObject("PEObject20_tArrow",-0.883695, 0.0, -0.468063, 0.0,
 
 LevelLoader.CreateGameObject("PEObject58_tArrow",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 576.26456, 0.0, -0.0, 1.0, 'Assignment2.x_PEObject58_tArro.lua', 'ExportTutorial',0x0e6e3a8f, 0x9de511ed, 0xb6475084, 0x92cae96d)
 
+LevelLoader.CreateGameObject("PEObject82_TImrod",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, 1355.28597, 1.0, 'Assignment2.x_PEObject82_TImro.lua', 'ExportTutorial',0xeeb20a51, 0x9f5711ed, 0xb8aa5084, 0x92cae96d)
+
 LevelLoader.CreateGameObject("PEObject31_transf",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -3643.940883, -52.751, 391.116815, 1.0, 'Assignment2.x_PEObject31_trans.lua', 'ExportTutorial',0x7fbd6fa1, 0x1c6911e0, 0x8370001b, 0x213b583a)
 
 LevelLoader.CreateGameObject("PEObject19_tArrow",-0.488974, 0.0, 0.872298, 0.0, 0.0, 1.0, -0.0, 0.0, -0.872298, -0.0, -0.488974, 0.0, -110.993986, 0.0, 254.725638, 1.0, 'Assignment2.x_PEObject19_tArro.lua', 'ExportTutorial',0xe01bbe1e, 0x1c5411e0, 0xa2f0001b, 0x213b583a)
 
 LevelLoader.CreateGameObject("PEObject46_nazi_rep",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, 0.129741, 1.0, 'Assignment2.x_PEObject46_nazi_.lua', 'ExportTutorial',0x37f7148f, 0x2bfc11e4, 0xbf57b8e8, 0x560d92e3)
+
+LevelLoader.CreateGameObject("PEObject81_tArrow",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 489.422875, 0.0, 1073.680964, 1.0, 'Assignment2.x_PEObject81_tArro.lua', 'ExportTutorial',0xabaf58c0, 0x9f5711ed, 0xb14e5084, 0x92cae96d)
 
 LevelLoader.CreateGameObject("PEObject23_transf",-0.99754, 0.0, 0.070103, 0.0, 0.0, 1.0, -0.0, 0.0, -0.070103, -0.0, -0.99754, 0.0, 1319.237512, -52.751161, 555.757428, 1.0, 'Assignment2.x_PEObject23_trans.lua', 'ExportTutorial',0x04ac8821, 0x1c6711e0, 0x85c7001b, 0x213b583a)
 
@@ -28,6 +32,8 @@ LevelLoader.CreateGameObject("PEObject78_TImrod",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 
 
 LevelLoader.CreateGameObject("PEObject16_tArrow",0.875067, 0.0, 0.484002, 0.0, 0.0, 1.0, -0.0, 0.0, -0.484002, -0.0, 0.875067, 0.0, -138.781173, 0.0, 74.338829, 1.0, 'Assignment2.x_PEObject16_tArro.lua', 'ExportTutorial',0x76f9d530, 0x1c5411e0, 0xbea5001b, 0x213b583a)
 
+LevelLoader.CreateGameObject("PEObject79_tArrow",0.623851, 0.0, -0.781544, 0.0, -0.0, 1.0, -0.0, 0.0, 0.781544, 0.0, 0.623851, 0.0, 0.0, 0.0, 927.144902, 1.0, 'Assignment2.x_PEObject79_tArro.lua', 'ExportTutorial',0x8aa69ede, 0x9f5711ed, 0x8b8d5084, 0x92cae96d)
+
 LevelLoader.CreateGameObject("PEObject21_tArrow",0.802985, 0.0, 0.596, 0.0, 0.0, 1.0, -0.0, 0.0, -0.596, -0.0, 0.802985, 0.0, 174.592971, 0.0, 477.007469, 1.0, 'Assignment2.x_PEObject21_tArro.lua', 'ExportTutorial',0x90b4a1b0, 0x1c6011e0, 0x91c1001b, 0x213b583a)
 
 LevelLoader.CreateGameObject("PEObject8_TspotRep",1.0, 0.0, 0.0, 0.0, -0.0, 0.004632, 0.999989, 0.0, -0.0, -0.999989, 0.004632, 0.0, 967.250827, 298.425626, -97.932148, 1.0, 'Assignment2.x_PEObject8_TspotR.lua', 'ExportTutorial',0x124cf5c0, 0x13a511e0, 0xa20c0025, 0xd3ac504f)
@@ -35,6 +41,8 @@ LevelLoader.CreateGameObject("PEObject8_TspotRep",1.0, 0.0, 0.0, 0.0, -0.0, 0.00
 LevelLoader.CreateGameObject("PEObject59_tArrow",-0.294935, 0.0, 0.955517, 0.0, 0.0, 1.0, -0.0, 0.0, -0.955517, -0.0, -0.294935, 0.0, 0.0, 0.0, 502.937969, 1.0, 'Assignment2.x_PEObject59_tArro.lua', 'ExportTutorial',0x38ac9721, 0x9de511ed, 0x9f705084, 0x92cae96d)
 
 LevelLoader.CreateGameObject("PEObject12_pPlane1",-0.99929, -0.012587, 0.035511, 0.0, -0.012882, 0.999884, -0.008089, 0.0, -0.035405, -0.008541, -0.999337, 0.0, -8.326546, -25.805183, 141.540459, 1.0, 'Assignment2.x_PEObject12_pPlan.lua', 'ExportTutorial',0x81a8b1c0, 0x1c5111e0, 0xa309001b, 0x213b583a)
+
+LevelLoader.CreateGameObject("PEObject80_tArrow",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 970.639222, 0.0, 1051.233069, 1.0, 'Assignment2.x_PEObject80_tArro.lua', 'ExportTutorial',0x9fe2b780, 0x9f5711ed, 0xad705084, 0x92cae96d)
 
 LevelLoader.CreateGameObject("PEObject42_TspotRep",1.0, 0.0, 0.0, 0.0, -0.0, 0.0, 1.0, 0.0, -0.0, -1.0, 0.0, 0.0, 103.366343, 309.733958, 376.85922, 1.0, 'Assignment2.x_PEObject42_Tspot.lua', 'ExportTutorial',0x4434ae2e, 0x467411e2, 0x98f20025, 0xd3ac504f)
 
