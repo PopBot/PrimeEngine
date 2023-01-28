@@ -76,7 +76,7 @@ void SoldierNPCBehaviorSM::do_SoldierNPCMovementSM_Event_TARGET_REACHED(PE::Even
 			if (pWP && StringOps::length(pWP->m_nextWayPointName) > 0)
 			{
 
-                    // Check fo the value of the waypoint. If it is 5, then randomly set the next waypoint to one of the four following waypoint numbers:
+                    // Check for the value of the waypoint. If it is 5, then randomly set the next waypoint to one of the four following waypoint numbers:
                     // randomly: 6, 7, 8, 1
                     char* current = "5";
                     if (strcmp(m_curPatrolWayPoint, current) == 0) {
@@ -207,6 +207,10 @@ void SoldierNPCBehaviorSM::do_UPDATE(PE::Events::Event *pEvt)
 		{
 			// should not happen, but in any case, set state to idle
 			m_state = IDLE;
+
+			// Testing the shoooting
+			//PE::Handle h("SoldierNPCMovementSM_Event_STOP_SHOOT", sizeof(SoldierNPCMovementSM_Event_STOP_SHOOT));
+			//SoldierNPCMovementSM_Event_STOP_SHOOT* pEvt = new(h) SoldierNPCMovementSM_Event_STOP_SHOOT();
 
 			PE::Handle h("SoldierNPCMovementSM_Event_STOP", sizeof(SoldierNPCMovementSM_Event_STOP));
 			SoldierNPCMovementSM_Event_STOP *pEvt = new(h) SoldierNPCMovementSM_Event_STOP();

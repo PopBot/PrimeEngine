@@ -78,7 +78,7 @@ void SoldierNPCAnimationSM::do_SoldierNPCAnimSM_Event_RUN(PE::Events::Event* pEv
 void SoldierNPCAnimationSM::do_SoldierNPCAnimSM_Event_STOP_SHOOT(PE::Events::Event* pEvt)
 {
 	m_curId = SoldierNPCAnimationSM::STAND_SHOOT;
-	setAnimation(0, SoldierNPCAnimationSM::STAND_SHOOT, 0, 0, 1, 1, PE::LOOPING);
+	setAnimation(0, SoldierNPCAnimationSM::STAND_SHOOT, 0, 0, 1, 1, PE::FADING_AWAY);
 }
 
 

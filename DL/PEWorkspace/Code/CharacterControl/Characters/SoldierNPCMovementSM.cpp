@@ -59,6 +59,7 @@ void SoldierNPCMovementSM::addDefaultComponents()
 	PE_REGISTER_EVENT_HANDLER(Event_UPDATE, SoldierNPCMovementSM::do_UPDATE);
 }
 
+
 void SoldierNPCMovementSM::do_SoldierNPCMovementSM_Event_MOVE_TO(PE::Events::Event *pEvt)
 {
 
