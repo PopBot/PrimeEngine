@@ -69,8 +69,8 @@ struct SoldierNPCAnimationSM : public PE::Components::DefaultAnimationSM
 	virtual void do_SoldierNPCAnimSM_Event_WALK(PE::Events::Event *pEvt);
 	PE_DECLARE_IMPLEMENT_EVENT_HANDLER_WRAPPER(do_SoldierNPCAnimSM_Event_RUN)
 	virtual void do_SoldierNPCAnimSM_Event_RUN(PE::Events::Event* pEvt);
-	PE_DECLARE_IMPLEMENT_EVENT_HANDLER_WRAPPER(do_SoliderNPCAnimSM_Event_STOP_SHOOT)
-	virtual void do_SoliderNPCAnimSM_Event_STOP_SHOOT(PE::Events::Event * pEvt);
+	PE_DECLARE_IMPLEMENT_EVENT_HANDLER_WRAPPER(do_SoldierNPCAnimSM_Event_STOP_SHOOT)
+	virtual void do_SoldierNPCAnimSM_Event_STOP_SHOOT(PE::Events::Event * pEvt);
 
 
 	AnimId m_curId;
