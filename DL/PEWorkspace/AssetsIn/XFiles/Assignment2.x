@@ -289,17 +289,6 @@ Frame PEObject59_tArrow {
 		-0.294935,0.000000,0.955517,0.000000,0.000000,1.000000,-0.000000,0.000000,-0.955517,-0.000000,-0.294935,0.000000,0.000000,0.000000,502.937969,1.000000;;
 	}
 }
-Frame PEObject78_TImrod {
-	MetaScript {
-		"Assignment2.x_PEObject78_TImro.lua"
-	}
-	PEUUID {
-		0x66e0870f, 0x9ec511ed, 0xb2215084, 0x92cae96d
-	}
-	FrameTransformMatrix {
-		1.000000,0.000000,-0.000000,0.000000,0.000000,1.000000,-0.000000,0.000000,-0.000000,-0.000000,1.000000,0.000000,0.000000,0.000000,709.390996,1.000000;;
-	}
-}
 Frame PEObject79_tArrow {
 	MetaScript {
 		"Assignment2.x_PEObject79_tArro.lua"
