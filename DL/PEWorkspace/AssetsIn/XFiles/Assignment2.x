@@ -3,17 +3,6 @@ xof 0303txt 0032
 LevelProperties {
 	1;
 }
-Frame PEObject6_Tstreetlight {
-	MetaScript {
-		"Assignment2.x_PEObject6_Tstree.lua"
-	}
-	PEUUID {
-		0x0f715440, 0x137d11e0, 0x9f3a0025, 0xd3ac504f
-	}
-	FrameTransformMatrix {
-		1.000000,0.000000,-0.000000,0.000000,0.000000,1.000000,-0.000000,0.000000,-0.000000,-0.000000,1.000000,0.000000,966.901092,0.000000,-96.658013,1.000000;;
-	}
-}
 Frame PEObject8_TspotRep {
 	MetaScript {
 		"Assignment2.x_PEObject8_TspotR.lua"
@@ -212,17 +201,6 @@ Frame PEObject31_transf {
 		1.000000,0.000000,-0.000000,0.000000,0.000000,1.000000,-0.000000,0.000000,-0.000000,-0.000000,1.000000,0.000000,-3643.940883,-52.751000,391.116815,1.000000;;
 	}
 }
-Frame PEObject32_TImrod {
-	MetaScript {
-		"Assignment2.x_PEObject32_TImro.lua"
-	}
-	PEUUID {
-		0xaad933de, 0x1c6911e0, 0xad11001b, 0x213b583a
-	}
-	FrameTransformMatrix {
-		-0.993860,-0.000000,0.110643,0.000000,0.000000,1.000000,0.000000,0.000000,-0.110643,-0.000000,-0.993860,0.000000,-1164.546874,1350.780340,-1167.860463,1.000000;;
-	}
-}
 Frame PEObject33_Tstreetlight {
 	MetaScript {
 		"Assignment2.x_PEObject33_Tstre.lua"
@@ -309,16 +287,5 @@ Frame PEObject59_tArrow {
 	}
 	FrameTransformMatrix {
 		-0.294935,0.000000,0.955517,0.000000,0.000000,1.000000,-0.000000,0.000000,-0.955517,-0.000000,-0.294935,0.000000,0.000000,0.000000,502.937969,1.000000;;
-	}
-}
-Frame PEObject63_TImrod {
-	MetaScript {
-		"Assignment2.x_PEObject63_TImro.lua"
-	}
-	PEUUID {
-		0xbd9e7740, 0x9ebd11ed, 0x90005084, 0x92cae96d
-	}
-	FrameTransformMatrix {
-		1.000000,0.000000,-0.000000,0.000000,0.000000,1.000000,-0.000000,0.000000,-0.000000,-0.000000,1.000000,0.000000,0.000000,0.000000,1072.414609,1.000000;;
 	}
 }

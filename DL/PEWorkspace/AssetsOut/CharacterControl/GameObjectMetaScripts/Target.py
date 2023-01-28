@@ -9,7 +9,7 @@ function fillMetaInfoTable(args) -- the script fromat requires existance of this
 
 
 args['myScript']="StaticMesh.lua"
-args['myScriptPackage']="Default"
+args['myScriptPackage']="CharacterControl"
 
 
 args['meshName'] = "imrod.x_main_mesh.mesha"
