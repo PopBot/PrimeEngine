@@ -8,15 +8,13 @@ t["callerScript"] = '''
 function fillMetaInfoTable(args) -- the script fromat requires existance of this function
 
 
-args['myScript']="SoldierNPC.lua"
-args['myScriptPackage']="CharacterControl"
+args['myScript']="StaticMesh.lua"
+args['myScriptPackage']="Default"
 
 
-args['skinName'] = "imrod.x_main_mesh.mesha"
-args['skinPackage'] = "ExportTutorial"
+args['meshName'] = "imrod.x_main_mesh.mesha"
+args['meshPackage'] = "ExportTutorial"
 
-args['gunMeshName'] = "m98.x_m98main_mesh.mesha"
-args['gunMeshPackage'] = "CharacterControl"
 
 
 args['health'] = 100
@@ -26,8 +24,6 @@ args['range'] = 1000
 args['behavior'] = 'random_patrol'
 
 args['isMoving'] = 1 
-
-args['npcType'] = 'Guard'
 
 
 end -- required
