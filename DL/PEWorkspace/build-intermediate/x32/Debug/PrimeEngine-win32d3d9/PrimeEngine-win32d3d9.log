@@ -121,9 +121,9 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Geometry\SkeletonC
   ServerConnectionManager.cpp
   ServerNetworkManager.cpp
   StreamManager.cpp
+  Profiling.cpp
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\Client\ClientNetworkManager.cpp(184,17): warning C4305: 'initializing': truncation from 'double' to 'float'
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\Client\ClientNetworkManager.cpp(175,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  Profiling.cpp
   D3D9Renderer.cpp
   IRenderer.cpp
 C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Networking\EventManager.cpp(206,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -188,9 +188,9 @@ C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\SH_DRAW.cpp(
   TextMesh.cpp
   TextSceneNode.cpp
   SoundManager.cpp
-C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\Skeleton.cpp(196,35): warning C4018: '<': signed/unsigned mismatch
   Dir.cpp
   ErrorHandling.cpp
+C:\Projects\clean\PrimeEngine\DL\PEWorkspace\Code\PrimeEngine\Scene\Skeleton.cpp(196,35): warning C4018: '<': signed/unsigned mismatch
   Networkable.cpp
   PEString.cpp
   PrimeEngine-win32d3d9.vcxproj -> C:\Projects\clean\PrimeEngine\DL\PEWorkspace\build\PrimeEngine-win32d3d9.lib

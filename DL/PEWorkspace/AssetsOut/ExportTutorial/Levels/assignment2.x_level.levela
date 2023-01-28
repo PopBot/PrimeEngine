@@ -6,7 +6,7 @@ LevelLoader.CreateGameObject("PEObject31_transf",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 
 
 LevelLoader.CreateGameObject("PEObject19_tArrow",-0.488974, 0.0, 0.872298, 0.0, 0.0, 1.0, -0.0, 0.0, -0.872298, -0.0, -0.488974, 0.0, -110.993986, 0.0, 254.725638, 1.0, 'Assignment2.x_PEObject19_tArro.lua', 'ExportTutorial',0xe01bbe1e, 0x1c5411e0, 0xa2f0001b, 0x213b583a)
 
-LevelLoader.CreateGameObject("PEObject46_nazi_rep",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, -0.0, 1.0, 'Assignment2.x_PEObject46_nazi_.lua', 'ExportTutorial',0x37f7148f, 0x2bfc11e4, 0xbf57b8e8, 0x560d92e3)
+LevelLoader.CreateGameObject("PEObject46_nazi_rep",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, 0.129741, 1.0, 'Assignment2.x_PEObject46_nazi_.lua', 'ExportTutorial',0x37f7148f, 0x2bfc11e4, 0xbf57b8e8, 0x560d92e3)
 
 LevelLoader.CreateGameObject("PEObject23_transf",-0.99754, 0.0, 0.070103, 0.0, 0.0, 1.0, -0.0, 0.0, -0.070103, -0.0, -0.99754, 0.0, 1319.237512, -52.751161, 555.757428, 1.0, 'Assignment2.x_PEObject23_trans.lua', 'ExportTutorial',0x04ac8821, 0x1c6711e0, 0x85c7001b, 0x213b583a)
 

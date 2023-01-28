@@ -7,24 +7,15 @@ t["callerScript"] = '''
 -- some of the data can be set by default, some of the data might be required to be edited from maya
 function fillMetaInfoTable(args) -- the script fromat requires existance of this function
 
-
+-- user modifed data
 args['myScript']="StaticMesh.lua"
 args['myScriptPackage']="CharacterControl"
 
-
-args['meshName'] = "imrod.x_main_mesh.mesha"
-args['meshPackage'] = "ExportTutorial"
-
+args['meshName'] = "imrod.x_imrodmesh_mesh.mesha"
+args['meshPackage'] = "Default"
 
 
-args['health'] = 100
-args['weapon'] = 'sword'
-args['leathality'] = 50
-args['range'] = 1000 
-args['behavior'] = 'random_patrol'
-
-args['isMoving'] = 1 
-
+args['npcType'] = 'Guard'
 
 end -- required
 '''
