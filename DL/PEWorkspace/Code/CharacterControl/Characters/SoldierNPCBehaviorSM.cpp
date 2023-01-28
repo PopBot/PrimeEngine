@@ -99,7 +99,6 @@ void SoldierNPCBehaviorSM::do_SoldierNPCMovementSM_Event_TARGET_REACHED(PE::Even
                             nextWayPointName = "1";
                             pWP = pGameObjectManagerAddon->getWayPoint("1");
                         }
-//                        pWP = pGameObjectManagerAddon->getWayPoint(nextWayPointName);
                     } else {
                         pWP = pGameObjectManagerAddon->getWayPoint(pWP->m_nextWayPointName);
                     }
