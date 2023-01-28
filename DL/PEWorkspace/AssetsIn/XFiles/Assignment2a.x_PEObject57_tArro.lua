@@ -4,13 +4,12 @@
 -- some of the data can be set by default, some of the data might be required to be edited from maya
 function fillMetaInfoTable(args) -- the script fromat requires existance of this function
 
+-- user modifed data
+args['myScript']="WayPoint.lua"
+args['myScriptPackage']="CharacterControl"
 
-args['myScript']="StaticMesh.lua"
-args['myScriptPackage']="Default"
-
--- Open the Imrod character mesh
-args['meshName'] = "imrod.x_main_mesh.mesha"
-args['meshPackage'] = "ExportTutorial"
+args['name'] = '6'
+args['next'] = '1'
 
 
 end -- required

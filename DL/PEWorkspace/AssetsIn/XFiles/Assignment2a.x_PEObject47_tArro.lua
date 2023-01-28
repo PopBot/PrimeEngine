@@ -5,10 +5,10 @@
 function fillMetaInfoTable(args) -- the script fromat requires existance of this function
 
 -- user modifed data
-args['myScript']="StaticMesh.lua"
-args['myScriptPackage']="Default"
+args['myScript']="WayPoint.lua"
+args['myScriptPackage']="CharacterControl"
 
-args['meshName'] = "cobbleplane.x_pplaneshape1_mesh.mesha"
-args['meshPackage'] = "Default"
+args['name'] = '5'
+args['next'] = '6'
 
 end -- required
